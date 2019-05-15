@@ -1,0 +1,29 @@
+
+*{
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: right;
+    border-right:1px solid black;
+}
+
+li:first-child {
+    border:none
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    float: left;
+}
