@@ -5,6 +5,9 @@
 
 ul {
     list-style: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {
@@ -24,6 +27,17 @@ li a{
     text-decoration: none;
 }
 
-h1 {
+#name{
     float: left;
+    text-align: center;
+}
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display:table;
+}
+
+.active {
+    background-color: #4aaaa5;
 }
