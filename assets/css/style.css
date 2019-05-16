@@ -6,6 +6,7 @@
 header {
     border-bottom: solid #cccccc;
     background-color: #ffffff;
+    width: 100%
 }
 
 footer {
@@ -47,7 +48,8 @@ li a{
     float: left;
     text-align: center;
     color: #ffffff;
-    background-color: #4aaaa5
+    background-color: #4aaaa5;
+    width: 25%;
 }
 
 .headings{
