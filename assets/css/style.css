@@ -3,6 +3,22 @@
     box-sizing: border-box;
 }
 
+header {
+    border-bottom: solid #cccccc;
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+}
+
+body {
+    background-color: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 ul {
     list-style: none;
     position: fixed;
@@ -21,7 +37,7 @@ li:first-child {
 
 li a{
     display: block;
-    color: black;
+    color: #777777;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -30,6 +46,13 @@ li a{
 #name{
     float: left;
     text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5
+}
+
+.headings{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .clearfix::after {
@@ -40,4 +63,5 @@ li a{
 
 .active {
     background-color: #4aaaa5;
+    color: #ffffff;
 }
