@@ -59,6 +59,12 @@ li a:hover {
     background-color: #ffffff;
 }
 
+#float{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 #name {
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -87,6 +93,7 @@ li a:hover {
     margin: auto;
     padding: 30px;
     background-color: #ffffff;
+    overflow: auto;
 }
 
 .article {
