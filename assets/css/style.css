@@ -28,6 +28,9 @@ body {
 
 ul {
     list-style: none;
+    padding:10px;
+    margin-top: 0;
+    padding-top: 20px;
 }
 
 li {
@@ -55,7 +58,7 @@ li a:hover {
 #header_content{
     max-width: 960px;
     margin: auto;
-    padding: 10px;
+    padding: 0px;
     background-color: #ffffff;
 }
 
@@ -68,11 +71,15 @@ li a:hover {
 #name {
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20pt;
     text-align: center;
     color: #ffffff;
+    max-width: 248px;
     background-color: #4aaaa5;
     margin: 0;
-    padding: 25px;
+    padding: 10px;
+    padding-top: 30px;
+    height: 97px;
 }
 
 #button {
