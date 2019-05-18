@@ -78,7 +78,7 @@ li a:hover {
     max-width: 248px;
     background-color: #4aaaa5;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     padding-top: 30px;
     height: 97px;
 }
@@ -158,5 +158,19 @@ li a:hover {
     padding: 10px;
     background-color: #4aaaa5;    
     text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+}
+
+.left{
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    background-color: #4aaaa5;    
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
 }
