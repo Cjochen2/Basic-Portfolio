@@ -56,6 +56,8 @@ li a:hover {
     color: white;
 }
 
+/* Header formating in the Nav Bar */
+
 #header_content{
     max-width: 960px;
     margin: auto;
@@ -68,6 +70,8 @@ li a:hover {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
+/* Id for the header Name with in the Nav Bar */
 
 #name {
     float: left;
@@ -83,6 +87,8 @@ li a:hover {
     height: 97px;
 }
 
+/* Submit Button for the Contact Page*/
+
 #button {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -90,6 +96,8 @@ li a:hover {
     padding: 10px;
     width: 100px;
 }
+
+/*The #pic ID's can be copied and edited as you need to include more pictures. */ 
 
 #pic1 {
     background: url(../images/sports1.jpg) no-repeat;
@@ -169,6 +177,8 @@ li a:hover {
     margin-top: 50px;
 }
 
+/* Article headings */
+
 .headings {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -188,6 +198,8 @@ li a:hover {
     color: #ffffff;
 }
    
+/* Text box for the pictures on the Portfolio tab */
+
 .textbox {
     Padding: 5px;
     background-color:#4aaaa5;
@@ -198,7 +210,9 @@ li a:hover {
     color:#ffffff;
 }
 
- /*
+ /* Old Code used to origionally format the Portfolio page. Don't want to remove just yet. Issue with Code is it doesn't move the text with the picture. They opperata as different elements
+
+
 .picture {
     float: left;
     margin-right: 50px;
