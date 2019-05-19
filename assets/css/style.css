@@ -91,10 +91,71 @@ li a:hover {
     width: 100px;
 }
 
-.text_input_size
-    {
+#pic1 {
+    background: url(../images/sports1.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right:50px;
+    margin-bottom: 50px;
+    
+}
+
+#pic2 {
+    background: url(../images/sports2.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right:50px;
+    margin-bottom: 50px;
+    
+}
+
+#pic3 {
+    background: url(../images/sports3.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right:50px;
+    margin-bottom: 50px;
+}
+
+#pic4 {
+    background: url(../images/sports4.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right:50px;
+    margin-bottom: 50px;
+}
+
+#pic5 {
+    background: url(../images/sports5.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right:50px;
+    margin-bottom: 50px;
+}
+
+#pic6 {
+    background: url(../images/sports6.jpg) no-repeat;
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right:50px;
+    margin-bottom: 50px;
+}
+
+.text_input_size {
         width: 860px;
-    }
+}
 
 .content {
     max-width: 960px;
@@ -126,7 +187,18 @@ li a:hover {
     background-color: #4aaaa5;
     color: #ffffff;
 }
+   
+.textbox {
+    Padding: 5px;
+    background-color:#4aaaa5;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16pt;
+    color:#ffffff;
+}
 
+ /*
 .picture {
     float: left;
     margin-right: 50px;
@@ -174,3 +246,5 @@ li a:hover {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
 }
+
+*/
